@@ -11,7 +11,7 @@ function Work() {
       <label className="section-title">Education</label>
       <div className="educat">
         <h1 >Bachelor's Degree in Computer Science & Engineering </h1>
-        <p>Bennett university, cureent CGPA: 8.14/10 </p>
+        <p>Bennett university (2019-2023), cureent CGPA: 8.14/10 </p>
       </div>
       <div >
       <h1 >Certifications </h1>
