@@ -12,7 +12,7 @@ function About() {
       showCursor: true,
       backDelay: 1500,
       backSpeed:60,
-      strings: ["Developer", "Azure Administrator", "Web developer", "Android developer"],
+      strings: ["Developer", "Azure Administrator", "Android developer", "Web developer"],
     });
   }, []);
   return (
