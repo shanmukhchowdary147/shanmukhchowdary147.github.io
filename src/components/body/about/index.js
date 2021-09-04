@@ -1,11 +1,12 @@
 import React from "react";
 import { init } from "ityped";
+import ImageFilter from 'react-image-filter';
 import SocialContact from "../../common/social-contact";
 import { useEffect, useRef } from "react";
 import "./about.css";
+
 function About() {
   const textRef = useRef();
-
   useEffect(() => {
     init(textRef.current, {
       showCursor: true,
@@ -23,7 +24,7 @@ function About() {
         </div>
         <div className="about-photo">
           <img
-            src={require("../../../assets/image/coding.png").default}
+            src={require("../../../assets/image/me9~4.jpg").default}
             className="picture"
           />
         </div>
