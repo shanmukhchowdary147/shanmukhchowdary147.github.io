@@ -13,9 +13,8 @@
   height: 340px;
   cursor: pointer;
   border-radius: 50%;
-  border-color: aqua;
+  border-color: white;
   border-style: solid;
-  content:url("C:\Users\Shanmukh Chowdary\Desktop\shanmukhchowdary147.github.io-main\src\assets\image\me9~4.jpg");
 }
 .about-info {
   font-size: 24px;
@@ -38,7 +37,6 @@
     border-color: white;
     border-style: solid;
     align-items: center;
-    content:url("C:\Users\Shanmukh Chowdary\Desktop\shanmukhchowdary147.github.io-main\src\assets\image\me9~2.jpg");
   }
   .about-info {
     font-size: 20px;
