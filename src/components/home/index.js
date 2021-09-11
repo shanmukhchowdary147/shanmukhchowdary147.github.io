@@ -4,13 +4,17 @@ import Header from "../header/index";
 import Socialb from "../socialb";
 import Footer from "../footer/index";
 import Body from "../body/index";
+import Socialicons from "../stic/index";
 
 function Home() {
   return (
     <div className="home">
       <div>
         <Header />
-        </div>
+      </div>
+      <div>
+        <Socialicons />
+      </div>
       {/* <div>
         <Socialb />
       </div> */}

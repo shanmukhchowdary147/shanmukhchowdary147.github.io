@@ -10,7 +10,7 @@ import Web from "./web/index";
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
   const handleLogoClick = () => {
-    window.scrollTo(0, 0);
+    window.location.reload();
   };
   window.onscroll = function () {
     setIsOpen(false);
@@ -18,7 +18,7 @@ function Header() {
   return (
       <div className="header">
         <div onClick={handleLogoClick} className="logo">
-          shanmukhchowdary147@gmail.com
+          Shanmukhchowdary.
         </div>
         <div className="menu">
           <div className="web-menu">

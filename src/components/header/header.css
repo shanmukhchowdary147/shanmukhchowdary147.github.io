@@ -23,9 +23,10 @@
 }
 .logo {
   display: flex;
-  font-size: 13px;
-  color: aquamarine;
-  font-weight: 550;
+  font-size: 15px;
+  color: #64ffda;
+  font-weight: bold;
+  cursor: pointer;
 }
 @media only screen and (max-width: 720px) {
   .mobile-menu {
@@ -36,7 +37,6 @@
     display: none;
   }
   .logo {
-    display: none;
     font-size: 15px;
   }
 }
