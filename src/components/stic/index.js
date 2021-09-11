@@ -14,7 +14,7 @@ export default function Socialicons() {
                             bgColor="#01152b"
                             fgColor="#64ffda"
                             target="_blank"
-                            style={{ height: 60, width: 60 }}
+                            style={{ height: 50, width: 50 }}
                           />
                         </li>
                         <li>
@@ -23,7 +23,7 @@ export default function Socialicons() {
                             bgColor="#01152b"
                             fgColor="#64ffda"
                             target="_blank"
-                            style={{ height: 60, width: 60 }}
+                            style={{ height: 50, width: 50 }}
                           />
                         </li>
                         <li>
@@ -32,7 +32,7 @@ export default function Socialicons() {
                             bgColor="#01152b"
                             fgColor="#64ffda"
                             target="_blank"
-                            style={{ height: 60, width: 60 }}
+                            style={{ height: 50, width: 50 }}
                           />
                         </li>
                         <li>
@@ -41,7 +41,7 @@ export default function Socialicons() {
                             bgColor="#01152b"
                             fgColor="#64ffda"
                             target="_blank"
-                            style={{ height: 60, width: 60 }}
+                            style={{ height: 50, width: 50 }}
                           />
                         </li>
                       </ul>
