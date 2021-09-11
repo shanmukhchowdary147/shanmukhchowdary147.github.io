@@ -34,11 +34,11 @@ export const WorkData = [
   },
   {
     company: "Microsoft AI classroom series",
-    dateJoining: "02-02-2000",
+    dateJoining: "29-12-2020",
   },
   {
     company: "Cisco IoT Certification",
-    dateJoining: "02-02-2000",
+    dateJoining: "29-03-2021",
   },
   
 ];
