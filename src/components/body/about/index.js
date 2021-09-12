@@ -6,6 +6,9 @@ import { useEffect, useRef } from "react";
 import "./about.css";
 
 function About() {
+  const picClick=()=>{
+    window.open("https://www.linkedin.com/in/shanmukhchowdary147/","_blank");
+  };
   const textRef = useRef();
   useEffect(() => {
     init(textRef.current, {
@@ -32,6 +35,7 @@ function About() {
         <div className="about-photo">
           <img
             className="picture"
+            onClick={picClick}
             src={require("../../../assets/image/me9~2.jpg").default}
           />
         </div>
