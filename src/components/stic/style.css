@@ -1,12 +1,12 @@
 .emailright {
-    top: 10%;
+    top: 20%;
     cursor: pointer;
     right: 130px;
     width: 20px;
     height: 200px;
     position: fixed;
     color: #64ffda;
-    font-size: 13px;
+    font-size: 15px;
     line-height: 1.2;
     white-space: nowrap;
     transform: rotate( -270deg);
