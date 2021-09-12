@@ -1,21 +1,21 @@
 .emailright {
-    top: 70%;
-    right: -20px;
+    top: 10%;
+    cursor: pointer;
+    right: 130px;
     width: 20px;
     height: 200px;
     position: fixed;
-    margin-top: -100px;
     color: #64ffda;
     font-size: 13px;
     line-height: 1.2;
     white-space: nowrap;
-    transform: rotate( -90deg);
+    transform: rotate( -270deg);
 }
-.imageLineR{
-    right: -24px;
-    margin: 0 auto;
-    position: relative;
-}
+/* .imageLineR{
+   
+    top: 50%;
+    position: fixed;
+} */
 .stick_follow_icon {
     top: 50%;
     left: 30px;
