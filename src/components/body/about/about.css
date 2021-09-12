@@ -27,11 +27,27 @@
   color: white;
   font-weight: 900;
 }
+/* .hire {
+  margin-top: 30px;
+  padding: 8px 16px;
+  background-color: #01152b;
+  border-color: #64ffda;
+  border-style: solid;
+  text-align: center;
+  vertical-align: center;
+  border-radius: 4px;
+}
+.hire a {
+  text-decoration: none;
+  text-align: center;
+  font-size: small;
+  vertical-align: center;
+  color: #64ffda;
+} */
 @media only screen and (max-width: 720px) {
   .about-top {
     flex-direction: column;
     justify-content: center;
-    align-items: center;
   }
   .picture {
     width: 330px;
