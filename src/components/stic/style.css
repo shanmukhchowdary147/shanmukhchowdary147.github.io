@@ -11,6 +11,11 @@
     white-space: nowrap;
     transform: rotate( -90deg);
 }
+.imageLineR{
+    right: -24px;
+    margin: 0 auto;
+    position: relative;
+}
 .stick_follow_icon {
     top: 50%;
     left: 30px;
@@ -24,12 +29,6 @@
     list-style: none;
     padding: 0;
     margin: 0;
-}
-
-.stick_follow_icon svg {
-    width: 1.3em;
-    height: 1.3em;
-    fill: var(--text-color)
 }
 
 .stick_follow_icon p {
@@ -63,6 +62,12 @@
     display: block;
     position: absolute;
     background-color: var(--text-color);
+}
+
+.imagelineL{
+    left: 24px;
+    margin: 0 auto;
+    position: relative;
 }
 
 @media only screen and (max-width: 1026px) {
