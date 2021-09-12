@@ -66,6 +66,7 @@
 
 .imagelineL{
     left: 24px;
+    width: 50px;
     margin: 0 auto;
     position: relative;
 }

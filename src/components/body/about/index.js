@@ -20,8 +20,8 @@ function About() {
       <div className="about-top">
         <div className="about-info">
           Hello There 👋, I am <br /> <br />
-          <span className="info-name">Shanmukh Chowdary Morampudi</span><br/><span ref={textRef}></span> <br/> <br/>
-          <span className="info-about" > I'm an India based developer with a goal-driven creative mindset and passion for learning and innovating.</span>
+          <span className="info-name">Shanmukh Chowdary Morampudi</span> <br/> <br /><span ref={textRef}></span> <br/> <br/>
+          {/* <span className="info-about" > I'm an India based developer with a goal-driven creative mindset and passion for learning and innovating.</span> */}
         </div>
         <div className="about-photo">
           <img
