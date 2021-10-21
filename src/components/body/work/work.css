@@ -10,6 +10,7 @@
   border-color: white;
   border-style: solid;
   align-items: center;
+  cursor: pointer;
 }
 
 .work {

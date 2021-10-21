@@ -9,6 +9,7 @@
 }
 .picture {
   height: 420px;
+  cursor: pointer;
 }
 .about-info {
   font-size: 24px;
