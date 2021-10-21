@@ -57,6 +57,15 @@ export default function Socialicons() {
               style={{ height: 50, width: 50 }}
             />
           </li>
+          <li>
+            <SocialIcon
+              url="https://shanmukhchowdary147.medium.com/"
+              bgColor="#01152b"
+              fgColor="#64ffda"
+              target="_blank"
+              style={{ height: 50, width: 50 }}
+            />
+          </li>
         </ul>
         <img src={require("../../assets/image/social-media-arrow.svg").default} alt="" className="imagelineL" />            
       </div>
