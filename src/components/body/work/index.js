@@ -4,6 +4,9 @@ import WorkCard from "./work-card";
 import "./work.css";
 import Separator from "../../common/separator/index";
 function Work() {
+  const picClick=()=>{
+    window.open("https://www.linkedin.com/in/shanmukhchowdary147/","_blank");
+  };
   const data = WorkData;
   return (
     <div className="work">
@@ -25,6 +28,7 @@ function Work() {
             <img
               src={require("../../../assets/image/me9~2.jpg").default}
               className="pic"
+              onClick={picClick}
             />
         </div>
       </div>

@@ -29,6 +29,7 @@ function About() {
           <img
             src={require("../../../assets/image/coding.png").default}
             className="picture"
+            onClick={picClick}
           />
         </div>
         {/* <div className="about-photo">
