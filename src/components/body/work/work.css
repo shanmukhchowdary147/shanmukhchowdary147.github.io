@@ -1,4 +1,17 @@
 
+.about {
+  display: flex;
+  justify-content: space-between;
+}
+.pic {
+  width: 330px;
+  height: 340px;
+  border-radius: 50%;
+  border-color: white;
+  border-style: solid;
+  align-items: center;
+}
+
 .work {
   display: flex;
   flex-direction: column;
@@ -6,7 +19,7 @@
 }
 .educat {
   display: flex;
-  color: #8892b0;
+  color: white;
   flex-direction: column;
   width: 100%;
 }
@@ -16,4 +29,10 @@
   justify-content: space-between;
   align-items: center;
   margin: 0px 0px;
+}
+@media only screen and (max-width: 720px) {
+.about {
+  flex-direction: column;
+  justify-content: center;
+}
 }

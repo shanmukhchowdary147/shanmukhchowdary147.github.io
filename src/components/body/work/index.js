@@ -9,15 +9,24 @@ function Work() {
     <div className="work">
       <Separator />
       <label className="section-title">Education</label>
-      <div className="educat">
-        <h1 >Bachelor of Technology, Computer Science </h1>
-        <p>Bennett university (2019-2023), current CGPA: 8.14/10 </p>
-        <h1 >Intermediate, MPC </h1>
-        <p>Board Of Intermediate Education Andhra Pradesh </p>
-        <p>Sri Chaiatanya junior college (2017-2019), CGPA: 9.94/10 </p>
-        <h1 >Class X </h1>
-        <p>Board Of Secondary Education Andhra Pradesh </p>
-        <p>ST.Claret EM High School (2017), GPA: 10/10 </p>
+      <br/> <br/>
+      <div className="about">
+        <div className="educat">
+          <h1 >Bachelor of Technology, Computer Science </h1>
+          <p>Bennett university (2019-2023), current CGPA: 8.14/10 </p>
+          <h1 >Intermediate, MPC </h1>
+          <p>Board Of Intermediate Education Andhra Pradesh </p>
+          <p>Sri Chaiatanya junior college (2017-2019), CGPA: 9.94/10 </p>
+          <h1 >Class X </h1>
+          <p>Board Of Secondary Education Andhra Pradesh </p>
+          <p>ST.Claret EM High School (2017), GPA: 10/10 </p>
+        </div>
+        <div className="about-pic">
+            <img
+              src={require("../../../assets/image/me9~2.jpg").default}
+              className="pic"
+            />
+        </div>
       </div>
       <div >
       <h1 >Certifications </h1>

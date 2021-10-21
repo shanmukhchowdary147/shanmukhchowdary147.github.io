@@ -7,7 +7,8 @@ export const ProjectData = [
       "ForHer is a women safety app where women can send their current location to their guardians and police when they feel insecure and in danger. They just need to open the app and send the alert message to their family or friends just by shaking the phone or clicking the send location button. There is a separate Login page for police to see the recent requests that contain the user's image, name, location, and contact number",
     tags: ["Android Studio", "Java", "Google Firebase"],
     github: "https://github.com/shanmukhchowdary147/ForHer",
-    // image:require("../assets/image/f1.jpg"),
+    image:
+      "https://cdn.dribbble.com/users/2657627/screenshots/13959270/media/b1a8b2b53760dc5c10e6cddc1409a3a1.png?compress=1&resize=400x300",
   },
 
   {
@@ -19,8 +20,8 @@ export const ProjectData = [
       "Android Studio", "Java", "Google Firebase"
     ],
     github: "https://github.com/shanmukhchowdary147/Farm_Share",
-    // image:
-    //   "https://cdn.dribbble.com/users/2657627/screenshots/13959270/media/b1a8b2b53760dc5c10e6cddc1409a3a1.png?compress=1&resize=400x300",
+    image:
+      "https://cdn.dribbble.com/users/2657627/screenshots/13959270/media/b1a8b2b53760dc5c10e6cddc1409a3a1.png?compress=1&resize=400x300",
   },
   {
     id: 1,
@@ -31,8 +32,8 @@ export const ProjectData = [
       "Android Studio", "Java", "Retrofit"
     ],
     github: "https://github.com/shanmukhchowdary147/Covid19Tracker",
-    // image:
-    //   "https://cdn.dribbble.com/users/2657627/screenshots/13959270/media/b1a8b2b53760dc5c10e6cddc1409a3a1.png?compress=1&resize=400x300",
+    image:
+      "https://cdn.dribbble.com/users/2657627/screenshots/13959270/media/b1a8b2b53760dc5c10e6cddc1409a3a1.png?compress=1&resize=400x300",
   },
   {
     id: 1,
@@ -42,7 +43,7 @@ export const ProjectData = [
     tags: [
       "Java NetBeans", "MySQL"
     ],
-    // image:
-    //   "https://cdn.dribbble.com/users/2657627/screenshots/13959270/media/b1a8b2b53760dc5c10e6cddc1409a3a1.png?compress=1&resize=400x300",
+    image:
+      "https://cdn.dribbble.com/users/2657627/screenshots/13959270/media/b1a8b2b53760dc5c10e6cddc1409a3a1.png?compress=1&resize=400x300",
   },
 ];

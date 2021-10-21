@@ -1,12 +1,13 @@
 .emailright {
     top: 20%;
     cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
     right: 130px;
     width: 20px;
     height: 200px;
     position: fixed;
     color: #64ffda;
-    font-size: 15px;
+    font-size: 17px;
     line-height: 1.2;
     white-space: nowrap;
     transform: rotate( -270deg);
