@@ -11,10 +11,11 @@ function Work() {
   return (
     <div className="work">
       <Separator />
-      <label className="section-title">Education</label>
+      <label className="section-title">About Me</label>
       <br/> <br/>
       <div className="about">
         <div className="educat">
+          <h1 >Eduaction </h1>
           <p1 >Bachelor of Technology, Computer Science </p1> <br/>
           <p2>Bennett university (2019-2023), current CGPA: 8.14/10 </p2> <br/> <br/> 
           <p1 >Intermediate, MPC </p1> <br/>
@@ -25,6 +26,7 @@ function Work() {
           <p2>ST.Claret EM High School (2017), GPA: 10/10 </p2> <br/>
         </div>
         <div className="about-pic">
+          <br/> <br/> <br/>
             <img
               src={require("../../../assets/image/me9~2.jpg").default}
               className="pic"
