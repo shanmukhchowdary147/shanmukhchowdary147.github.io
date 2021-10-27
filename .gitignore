@@ -10,6 +10,8 @@
 
 # production
 /build
+
+#ig
 /src/assets/resume.pdf
 /src/assets/image/pf.jpg
 /src/assets/image/pf1.jpg
