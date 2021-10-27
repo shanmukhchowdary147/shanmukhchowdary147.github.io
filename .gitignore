@@ -10,9 +10,9 @@
 
 # production
 /build
-/resume.pdf
-/pf.jpg
-/pf1.jpg
+src/assets/resume.pdf
+src/assets/image/pf.jpg
+src/assets/image/pf1.jpg
 # misc
 .DS_Store
 .env.local
