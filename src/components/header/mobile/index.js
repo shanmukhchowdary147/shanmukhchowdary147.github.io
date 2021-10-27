@@ -10,7 +10,7 @@ function Mobile({ isOpen, setIsOpen }) {
         <div className="mobile-option">
           <a href="#work">
             {" "}
-            <i class="fi-rr-briefcase option-icon"></i>Education
+            <i class="fi-rr-briefcase option-icon"></i>About Me
           </a>
         </div>
         <div className="mobile-option">
