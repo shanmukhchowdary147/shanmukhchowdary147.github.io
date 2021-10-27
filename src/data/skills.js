@@ -7,12 +7,20 @@ export const SkillsData = [
         icon: <i class="devicon-html5-plain colored"></i>,
       },
       {
+        name: "Docker",
+        icon: <i class="devicon-docker-plain colored"></i>,
+      },
+      {
         name: "Android Studio",
         icon: <i class="devicon-android-plain colored"></i>,
       },
       {
         name: "React JS",
         icon: <i class="devicon-react-original colored"></i>,
+      },
+      {
+        name: "Azure",
+        icon: <img height="70" src="https://www.vectorlogo.zone/logos/microsoft_azure/microsoft_azure-icon.svg"></img>,
       },
       {
         name: "Node JS",
