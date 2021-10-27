@@ -25,12 +25,10 @@
 }
 .educat p1{
   font-size:19px;
-  font-family: 'Courier New', Courier, monospace;
   color: #64ffda;
 }
 .educat p2{
   color: white;
-  font-family: 'Courier New', Courier, monospace;
 }
 .work-list {
   display: flex;
