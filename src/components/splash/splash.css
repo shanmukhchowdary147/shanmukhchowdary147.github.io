@@ -129,4 +129,5 @@
     animation: logofade 4s ease forwards 4s;
     overflow: x;
     pointer-events: none;
+    z-index: 100;
   }
