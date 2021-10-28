@@ -8,7 +8,6 @@ import reportWebVitals from './reportWebVitals';
 ReactDOM.render(
   <React.StrictMode>
     <div>
-      <Splash />
       <App />
     </div>
   </React.StrictMode>,
