@@ -9,6 +9,11 @@
 
 /* animation: logofade 1s ease forwards 10s; */
 
+#logo path:nth-child(0) {
+  stroke-dasharray: 530.84px;
+  stroke-dashoffset: 530.84px;
+  animation: line-anim 4s ease forwards 0.1s;
+}
 #logo path:nth-child(1) {
   stroke-dasharray: 530.84px;
   stroke-dashoffset: 530.84px;
@@ -50,8 +55,8 @@
   animation: line-anim 2s ease forwards 1.4s;
 }
 #logo path:nth-child(9) {
-  stroke-dasharray: 430.29px;
-  stroke-dashoffset: 430.29px;
+  stroke-dasharray: 480.29px;
+  stroke-dashoffset: 480.29px;
   animation: line-anim 2s ease forwards 1.6s;
 }
 #logo path:nth-child(10) {
@@ -65,8 +70,8 @@
   animation: line-anim 2s ease forwards 2.0s;
 }
 #logo path:nth-child(12) {
-  stroke-dasharray: 393.38px;
-  stroke-dashoffset: 393.38px;
+  stroke-dasharray: 540.38px;
+  stroke-dashoffset: 540.38px;
   animation: line-anim 2s ease forwards 2.1s;
 }
 #logo path:nth-child(13) {
@@ -89,11 +94,7 @@
   stroke-dashoffset: 393.38px;
   animation: line-anim 2s ease forwards 2.1s;
 }
-#logo path:nth-child(17) {
-  stroke-dasharray: 393.38px;
-  stroke-dashoffset: 393.38px;
-  animation: line-anim 2s ease forwards 2.1s;
-}
+
 
 @keyframes line-anim {
   to {
@@ -126,7 +127,7 @@
   inset: 0;
   background-color: #01152b;
   opacity: 100%;
-  animation: logofade 4s ease forwards 4s;
+  animation: logofade 6s ease forwards 5s;
   overflow: x;
   pointer-events: none;
   z-index: 100;
