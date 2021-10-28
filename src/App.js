@@ -5,10 +5,7 @@ import Splash from "./components/splash";
 
 function App() {
   return(
-    <div>
-      <Splash />
-      <Home />
-    </div>
+    <Home />
   )
 }
 
