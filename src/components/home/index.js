@@ -30,21 +30,10 @@ function Home() {
             </svg>        
       </div>
       <div className="home">
-        <div>
           <Header />
-        </div>
-        <div>
           <Socialicons />
-        </div>
-        {/* <div>
-          <Socialb />
-        </div> */}
-        <div>
           <Body />
-        </div>
-        <div>
           <Footer />
-        </div>
       </div>
     </div>
   );
