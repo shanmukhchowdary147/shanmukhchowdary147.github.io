@@ -9,7 +9,6 @@ ReactDOM.render(
   <React.StrictMode>
     <div>
       <App />
-      <Splash />
     </div>
   </React.StrictMode>,
   document.getElementById('root')
