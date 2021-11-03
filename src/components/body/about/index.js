@@ -23,7 +23,7 @@ function About() {
       <div className="about-top">
       <div className="about-info">
           Hello There 👋, I am <br />
-          <span className="info-name">Shanmukh Chowdary Morampudi</span><br />
+          <span className="info-name">Shanmukh Chowdary Morampudi</span><br /> <span ref={textRef}></span>
         </div>
         <div className="about-photo">
           <img
