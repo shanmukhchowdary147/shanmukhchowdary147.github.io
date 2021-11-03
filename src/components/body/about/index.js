@@ -9,15 +9,15 @@ function About() {
   const picClick=()=>{
     window.open("https://www.linkedin.com/in/shanmukhchowdary147/","_blank");
   };
-  const textRef = useRef();
-  useEffect(() => {
-    init(textRef.current, {
-      showCursor: true,
-      backDelay: 1500,
-      backSpeed:60,
-      strings: ["Developer", "Azure Administrator", "Android developer", "Web developer"],
-    });
-  }, []);
+  // const textRef = useRef();
+  // useEffect(() => {
+  //   init(textRef.current, {
+  //     showCursor: true,
+  //     backDelay: 1500,
+  //     backSpeed:60,
+  //     strings: ["Developer", "Azure Administrator", "Android developer", "Web developer"],
+  //   });
+  // }, []);
   return (
     <div className="about">
       <div className="about-top">
