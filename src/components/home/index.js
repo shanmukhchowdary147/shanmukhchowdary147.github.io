@@ -31,7 +31,7 @@ function Home() {
       </div>
       <div className="home">
           <Header />
-          <Socialicons />
+          {/* <Socialicons /> */}
           <Body />
           <Footer />
       </div>
