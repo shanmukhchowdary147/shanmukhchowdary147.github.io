@@ -15,12 +15,16 @@ export const SkillsData = [
         icon: <i class="devicon-android-plain colored"></i>,
       },
       {
-        name: "React JS",
-        icon: <i class="devicon-react-original colored"></i>,
+        name: "AWS",
+        icon: <i class="devicon-amazonwebservices-original colored"></i>,
       },
       {
         name: "Azure",
         icon: <img height="70" src="https://www.vectorlogo.zone/logos/microsoft_azure/microsoft_azure-icon.svg"></img>,
+      },
+      {
+        name: "React JS",
+        icon: <i class="devicon-react-original colored"></i>,
       },
       {
         name: "Node JS",
