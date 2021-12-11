@@ -23,6 +23,15 @@ export default function Socialicons() {
           </li>
           <li>
             <SocialIcon
+              url="https://www.credly.com/users/morampudi-shanmukh-chowdary.26cd940f"
+              bgColor="#01152b"
+              fgColor="#64ffda"
+              target="_blank"
+              style={{ height: 50, width: 50 }}
+            />
+          </li>
+          <li>
+            <SocialIcon
               url="https://github.com/shanmukhchowdary147"
               bgColor="#01152b"
               fgColor="#64ffda"
@@ -51,15 +60,6 @@ export default function Socialicons() {
           <li>
             <SocialIcon
               url="https://twitter.com/Shanmukhc147"
-              bgColor="#01152b"
-              fgColor="#64ffda"
-              target="_blank"
-              style={{ height: 50, width: 50 }}
-            />
-          </li>
-          <li>
-            <SocialIcon
-              url="https://www.credly.com/users/morampudi-shanmukh-chowdary.26cd940f"
               bgColor="#01152b"
               fgColor="#64ffda"
               target="_blank"
