@@ -15,7 +15,7 @@ function About() {
       showCursor: true,
       backDelay: 1500,
       backSpeed:60,
-      strings: ["Developer", "Azure Administrator", "Android developer", "Web developer"],
+      strings: ["AWS Solutions Architect Associate", "Azure Administrator", "Android developer", "Web developer"],
     });
   }, []);
   return (
