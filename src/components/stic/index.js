@@ -59,7 +59,7 @@ export default function Socialicons() {
           </li>
           <li>
             <SocialIcon
-              url="https://shanmukhchowdary147.medium.com/"
+              url="https://www.credly.com/users/morampudi-shanmukh-chowdary.26cd940f"
               bgColor="#01152b"
               fgColor="#64ffda"
               target="_blank"
