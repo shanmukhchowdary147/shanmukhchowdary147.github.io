@@ -1,5 +1,9 @@
 export const WorkData = [
   {
+    company: "AWS Solutions Architect Associate(SA-C02)",
+    dateJoining: "10-12-2021",
+  },
+  {
     company: "Microsoft Azure Administrator Associate (AZ-104)",
     // designation: "Software Engineer",
     dateJoining: "02-08-2021",
