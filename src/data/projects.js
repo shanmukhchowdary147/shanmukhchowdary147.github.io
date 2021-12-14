@@ -51,7 +51,7 @@ export const ProjectData = [
     id: 1,
     title: "Hostel management system",
     about:
-      "This is a Desktop application used to manage Hostel Administration",
+      "This is a Desktop application used to manage Hostel Administration.",
     tags: [
       "Java NetBeans", "MySQL"
     ],
