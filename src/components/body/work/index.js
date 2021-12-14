@@ -17,10 +17,10 @@ function Work() {
         <div className="educat">
           <h1 >Eduaction </h1>
           <p1 >Bachelor of Technology, Computer Science </p1> <br/>
-          <p2>Bennett university (2019-2023), current CGPA: 8.14/10 </p2> <br/> <br/> 
+          <p2>Bennett University (2019-2023), Current CGPA: 8.14/10 </p2> <br/> <br/> 
           <p1 >Intermediate, MPC </p1> <br/>
           <p2>Board Of Intermediate Education Andhra Pradesh </p2> <br/>
-          <p2>Sri Chaiatanya junior college (2017-2019), CGPA: 9.94/10 </p2> <br/> <br/>
+          <p2>Sri Chaiatanya Junior College (2017-2019), CGPA: 9.94/10 </p2> <br/> <br/>
           <p1 >Class X </p1> <br/>
           <p2>Board Of Secondary Education Andhra Pradesh </p2> <br/>
           <p2>ST.Claret EM High School (2017), GPA: 10/10 </p2> <br/>
