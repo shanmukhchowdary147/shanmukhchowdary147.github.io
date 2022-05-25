@@ -1,5 +1,9 @@
 export const WorkData = [
   {
+    company: "AWS Solutions Architect Professional(SAP-C01)",
+    dateJoining: "16-05-2022",
+  },
+  {
     company: "AWS Solutions Architect Associate(SAA-C02)",
     dateJoining: "10-12-2021",
   },
