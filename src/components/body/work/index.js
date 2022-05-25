@@ -15,7 +15,7 @@ function Work() {
       <br/> <br/>
       <div className="about">
         <div className="educat">
-          <h1 >Eduaction </h1>
+          <h1 >Education </h1>
           <p1 >Bachelor of Technology, Computer Science </p1> <br/>
           <p2>Bennett University (2019-2023), Current CGPA: 8.38/10 </p2> <br/> <br/> 
           <p1 >Intermediate, MPC </p1> <br/>
