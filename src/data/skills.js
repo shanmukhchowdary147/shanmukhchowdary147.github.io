@@ -3,20 +3,20 @@ export const SkillsData = [
     type: "Frontend",
     list: [
       {
-        name: "HTML5",
-        icon: <i class="devicon-html5-plain colored"></i>,
+        name: "AWS",
+        icon: <i class="devicon-amazonwebservices-original colored"></i>,
       },
       {
         name: "Docker",
         icon: <i class="devicon-docker-plain colored"></i>,
       },
       {
-        name: "Android Studio",
-        icon: <i class="devicon-android-plain colored"></i>,
+        name: "Jenkins",
+        icon: <i class="devicon-jenkins-plain"></i>,
       },
       {
-        name: "AWS",
-        icon: <i class="devicon-amazonwebservices-original colored"></i>,
+        name: "Kubernetes",
+        icon: <i class="devicon-kubernetes-plain colored"></i>,
       },
       {
         name: "Azure",
@@ -27,17 +27,20 @@ export const SkillsData = [
         icon: <i class="devicon-react-original colored"></i>,
       },
       {
-        name: "Node JS",
-        icon: <i class="devicon-nodejs-plain colored"></i>,
+        name: "HTML5",
+        icon: <i class="devicon-html5-plain colored"></i>,
       },
       {
         name: "CSS",
         icon: <i class="devicon-css3-plain colored"></i>,
       },
       {
-        name: "Javascript",
-        icon: <i class="devicon-javascript-plain colored"></i>,
-        
+        name: "Android Studio",
+        icon: <i class="devicon-android-plain colored"></i>,
+      },
+      {
+        name: "Node JS",
+        icon: <i class="devicon-nodejs-plain colored"></i>,
       },
       {
         name: "Python",
