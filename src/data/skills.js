@@ -12,7 +12,7 @@ export const SkillsData = [
       },
       {
         name: "Jenkins",
-        icon: <i class="devicon-jenkins-plain"></i>,
+        icon: <i class="devicon-jenkins-plain colored"></i>,
       },
       {
         name: "Kubernetes",
