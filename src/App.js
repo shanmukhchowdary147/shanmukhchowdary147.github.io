@@ -2,20 +2,11 @@ import logo from './logo.svg';
 import './App.css';
 import Home from './components/home/index';
 import Splash from './components/splash';
-import { useState, useEffect } from 'react';
 
 function App() {
-  const [showname, setShowName] = useState(true);
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      setShowName(false);
-      console.log('This will run after 8 seconds!');
-    }, 6500);
-    return () => clearTimeout(timer);
-  }, []);
   return (
     <div>
-      <div class="namediv" id={showname ? 'show' : 'hide'}>
+      <div class="namediv">
         <svg
           id="logo"
           width="1279"
@@ -122,9 +113,7 @@ function App() {
           />
         </svg>
       </div>
-      <div id={showname ? 'hide' : 'show'}>
-        <Home />
-      </div>
+      <Home />
     </div>
   );
 }
