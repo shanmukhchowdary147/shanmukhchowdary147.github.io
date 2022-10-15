@@ -67,7 +67,7 @@
 #logo path:nth-child(11) {
   stroke-dasharray: 473.29px;
   stroke-dashoffset: 473.29px;
-  animation: line-anim 2s ease forwards 2.0s;
+  animation: line-anim 2s ease forwards 2s;
 }
 #logo path:nth-child(12) {
   stroke-dasharray: 540.38px;
@@ -94,7 +94,6 @@
   stroke-dashoffset: 393.38px;
   animation: line-anim 2s ease forwards 2.1s;
 }
-
 
 @keyframes line-anim {
   to {
@@ -123,7 +122,7 @@
   }
 }
 .namediv {
-  position: absolute;
+  /* position: absolute; */
   inset: 0;
   background-color: #01152b;
   opacity: 100%;
@@ -169,4 +168,8 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+#hide {
+  display: none;
 }
