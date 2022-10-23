@@ -30,13 +30,15 @@ function Work() {
           <p2>Board Of Secondary Education Andhra Pradesh </p2> <br />
           <p2>ST.Claret EM High School (2017), GPA: 10/10 </p2> <br />
         </div>
-        <div className="about-pic">
-          <br /> <br /> <br />
-          <img
-            src={require('../../../assets/image/profile6.png').default}
-            className="pic"
-            onClick={picClick}
-          />
+        <div className="tempclass">
+          <div className="about-pic">
+            <br /> <br /> <br />
+            <img
+              src={require('../../../assets/image/profile6.png').default}
+              className="pic"
+              onClick={picClick}
+            />
+          </div>
         </div>
       </div>
       <div>
