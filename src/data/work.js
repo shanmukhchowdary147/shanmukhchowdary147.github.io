@@ -9,7 +9,7 @@ export const WorkData = [
   },
   {
     company: 'AWS Solutions Architect Associate (SAA-C02)',
-    dateJoining: '10-12-2021',
+    dateJoining: '10-12-2021 ',
   },
   {
     company: 'Microsoft Azure Administrator Associate (AZ-104)',
