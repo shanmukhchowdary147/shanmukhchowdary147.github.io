@@ -1,11 +1,11 @@
-import React from 'react';
-import { WorkData } from '../../../data/work';
-import WorkCard from './work-card';
-import './work.css';
-import Separator from '../../common/separator/index';
+import React from "react";
+import { WorkData } from "../../../data/work";
+import WorkCard from "./work-card";
+import "./work.css";
+import Separator from "../../common/separator/index";
 function Work() {
   const picClick = () => {
-    window.open('https://www.linkedin.com/in/shanmukhchowdary147/', '_blank');
+    window.open("https://www.linkedin.com/in/shanmukhchowdary147/", "_blank");
   };
   const data = WorkData;
   return (
@@ -18,13 +18,13 @@ function Work() {
           <h1>Education </h1>
           <p1>Bachelor of Technology, Computer Science </p1> <br />
           <p2>
-            Bennett University (2019-2023), Current CGPA: 8.5/10{' '}
+            Bennett University (2019-2023), Current CGPA: 8.5/10{" "}
           </p2> <br /> <br />
           <p1>Intermediate, MPC </p1> <br />
           <p2>Board Of Intermediate Education Andhra Pradesh </p2> <br />
           <p2>
-            Sri Chaiatanya Junior College (2017-2019), CGPA: 9.94/10{' '}
-          </p2>{' '}
+            Sri Chaiatanya Junior College (2017-2019), CGPA: 9.94/10{" "}
+          </p2>{" "}
           <br /> <br />
           <p1>Class X </p1> <br />
           <p2>Board Of Secondary Education Andhra Pradesh </p2> <br />
@@ -34,7 +34,7 @@ function Work() {
           <div className="about-pic">
             <br /> <br /> <br />
             <img
-              src={require('../../../assets/image/profile6.png').default}
+              src={require("../../../assets/image/shannu.jpg")}
               className="pic"
               onClick={picClick}
             />

@@ -1,5 +1,14 @@
-
 export const ProjectData = [
+  {
+    id: 1,
+    title: "GatorHive",
+    about:
+      "packnDeploy is an automated CI-CD pipeline to deploy a web application. Everything is automated from Dockerizing the application, pushing the image to Docker Registry like AWS ECR, and deploying it to Elastic Beanstalk using AWS CodeBuild, CodeDeploy, and CodePipeline. Also written the YAML configuration to dockerize the application and push the Image to Docker Registry.",
+    tags: ["AWS", "Docker", "CI-CD Pipelines"],
+    github: "https://github.com/shanmukhchowdary147/packnDeploy",
+    image:
+      "https://cdn.dribbble.com/users/2657627/screenshots/13959270/media/b1a8b2b53760dc5c10e6cddc1409a3a1.png?compress=1&resize=400x300",
+  },
   {
     id: 1,
     title: "packnDeploy",
@@ -35,9 +44,7 @@ export const ProjectData = [
     title: "Farm Share",
     about:
       "Farm Share is an android app developed to help farmers overcome the problem of lack of machinery or agricultural equipment. Lessee ( farmers who cannot afford to buy agricultural equipment) can take equipment as rent from Lessor ( farmers who can afford to buy equipment) and pay them. So, in this way both the farmers get benefited.",
-    tags: [
-      "Android Studio", "Java", "Google Firebase"
-    ],
+    tags: ["Android Studio", "Java", "Google Firebase"],
     github: "https://github.com/shanmukhchowdary147/Farm_Share",
     image:
       "https://cdn.dribbble.com/users/2657627/screenshots/13959270/media/b1a8b2b53760dc5c10e6cddc1409a3a1.png?compress=1&resize=400x300",
@@ -47,9 +54,7 @@ export const ProjectData = [
     title: "WildFire Prediction",
     about:
       "Wildfire prediction is a machine learning project to predict wildfires in the near future.",
-    tags: [
-      "Python"
-    ],
+    tags: ["Python"],
     github: "https://github.com/shanmukhchowdary147/Wildfire-Prediction",
     image:
       "https://cdn.dribbble.com/users/2657627/screenshots/13959270/media/b1a8b2b53760dc5c10e6cddc1409a3a1.png?compress=1&resize=400x300",
@@ -59,9 +64,7 @@ export const ProjectData = [
     title: "Covi-19 Tracker App",
     about:
       "Covi-19 Tracker is an android app to track the status of Covid-19 cases globally and nationally. It shows some major aspects like total cases, active cases, today's cases, total deaths, today's deaths, number of people recovered, and affected countries.",
-    tags: [
-      "Android Studio", "Java", "Retrofit"
-    ],
+    tags: ["Android Studio", "Java", "Retrofit"],
     github: "https://github.com/shanmukhchowdary147/Covid19Tracker",
     image:
       "https://cdn.dribbble.com/users/2657627/screenshots/13959270/media/b1a8b2b53760dc5c10e6cddc1409a3a1.png?compress=1&resize=400x300",

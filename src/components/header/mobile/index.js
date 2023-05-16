@@ -28,6 +28,11 @@ function Mobile({ isOpen, setIsOpen }) {
             <i class="fi-rr-user option-icon"></i>Contact
           </a>
         </div>
+        <div className="mobile-option">
+          <a href={require("../../.././assets/resume.pdf")} download>
+            <i class="fi-rr-file option-icon"></i>resume
+          </a>
+        </div>
       </div>
     </div>
   );
