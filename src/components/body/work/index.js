@@ -18,7 +18,7 @@ function Work() {
           <h1>Education </h1>
           <p1>Bachelor of Technology, Computer Science </p1> <br />
           <p2>
-            Bennett University (2019-2023), Current CGPA: 8.5/10{" "}
+            Bennett University (2019-2023), Current CGPA: 8.74/10{" "}
           </p2> <br /> <br />
           <p1>Intermediate, MPC </p1> <br />
           <p2>Board Of Intermediate Education Andhra Pradesh </p2> <br />
