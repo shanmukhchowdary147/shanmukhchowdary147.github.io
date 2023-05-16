@@ -21,10 +21,6 @@
   margin-left: -50px;
 } */
 
-.cardp:hover ~ .cardp {
-  left: 50px;
-}
-
 .cardp a {
   text-decoration: none;
   color: black;
@@ -32,6 +28,9 @@
 @media (min-width: 720px) {
   .cardp:hover {
     transform: translateY(-20px);
+  }
+  .cardp:hover ~ .cardp {
+    left: 50px;
   }
 }
 
