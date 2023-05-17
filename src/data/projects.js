@@ -3,9 +3,9 @@ export const ProjectData = [
     id: 1,
     title: "GatorHive",
     about:
-      "packnDeploy is an automated CI-CD pipeline to deploy a web application. Everything is automated from Dockerizing the application, pushing the image to Docker Registry like AWS ECR, and deploying it to Elastic Beanstalk using AWS CodeBuild, CodeDeploy, and CodePipeline. Also written the YAML configuration to dockerize the application and push the Image to Docker Registry.",
-    tags: ["AWS", "Docker", "CI-CD Pipelines"],
-    github: "https://github.com/shanmukhchowdary147/packnDeploy",
+      "GatorHive is an online platform ddesigned for students of University of Florida to find and promote college events. It allows clubs to register and promote their events. The platform aims to enhance campus community connectivity. It has some cool features like Register As group option and subscribe to clubs to get notified about their future events.",
+    tags: ["React JS", "Node JS", "MySQL", "AWS S3"],
+    github: "https://github.com/shanmukhchowdary147/GatorHive-26",
     image:
       "https://cdn.dribbble.com/users/2657627/screenshots/13959270/media/b1a8b2b53760dc5c10e6cddc1409a3a1.png?compress=1&resize=400x300",
   },
@@ -54,7 +54,7 @@ export const ProjectData = [
     title: "WildFire Prediction",
     about:
       "Wildfire prediction is a machine learning project to predict wildfires in the near future.",
-    tags: ["Python"],
+    tags: ["Python", "ML"],
     github: "https://github.com/shanmukhchowdary147/Wildfire-Prediction",
     image:
       "https://cdn.dribbble.com/users/2657627/screenshots/13959270/media/b1a8b2b53760dc5c10e6cddc1409a3a1.png?compress=1&resize=400x300",

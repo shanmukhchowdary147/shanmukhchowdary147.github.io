@@ -16,10 +16,10 @@ function About() {
       backDelay: 1500,
       backSpeed: 60,
       strings: [
+        "Web developer",
+        "AWS DevOps Engineer",
         "AWS Solutions Architect",
         "Azure Administrator",
-        "Android developer",
-        "Web developer",
       ],
     });
   }, []);

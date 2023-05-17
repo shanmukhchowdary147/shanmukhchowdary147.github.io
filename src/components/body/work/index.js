@@ -1,5 +1,5 @@
 import React from "react";
-import { WorkData } from "../../../data/work";
+import { certificationsData } from "../../../data/certifications";
 import WorkCard from "./work-card";
 import "./work.css";
 import Separator from "../../common/separator/index";
@@ -7,7 +7,7 @@ function Work() {
   const picClick = () => {
     window.open("https://www.linkedin.com/in/shanmukhchowdary147/", "_blank");
   };
-  const data = WorkData;
+  const data = certificationsData;
   return (
     <div className="work">
       <Separator />
