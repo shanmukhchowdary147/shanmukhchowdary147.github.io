@@ -118,8 +118,7 @@ function Work() {
             <br />
             <li>
               Lead all the club members in an organized manner by assigning
-              tasks to each individual and verify whether they have performed
-              their tasks correctly or not.
+              tasks to each individual and verifying their performance.
             </li>
           </ul>
         </div>
