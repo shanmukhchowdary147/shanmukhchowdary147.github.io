@@ -31,8 +31,6 @@
   display: flex;
   flex-direction: column;
   width: 100%;
-  margin-right: 5px;
-  margin-bottom: 20px;
 }
 .intro-para p {
   font-size: 17px;
@@ -94,5 +92,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+  .intro-para {
+    margin-bottom: 25px;
   }
 }
