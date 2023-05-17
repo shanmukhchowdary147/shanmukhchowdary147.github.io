@@ -65,8 +65,9 @@
   background-color: #01152b;
   max-width: 400px;
   margin: 12px;
+  /* flex-grow: 1;
   flex-basis: 0;
-  flex-grow: 1;
+  flex-grow: 1; */
 }
 
 .educat-extra ul {
@@ -77,6 +78,10 @@
   content: "➤";
   color: #64ffda; /* Replace with your desired color */
   margin-right: 5px;
+}
+
+.educat-extra p2 {
+  color: rgb(159, 159, 159);
 }
 @media only screen and (max-width: 720px) {
   .about {

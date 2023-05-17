@@ -55,32 +55,38 @@ function Work() {
           <ul>
             <li>
               <p1>Bachelor of Technology, Computer Science </p1> <br />
-              <p2>Bennett University (2019-2023), CGPA: 8.74/10 </p2>
+              <p1>Bennett University (2019-2023), CGPA: 8.74/10 </p1>
             </li>
             <br />
             <li>
               <p1>Intermediate, MPC </p1> <br />
-              <p2>Board Of Intermediate Education Andhra Pradesh </p2> <br />
-              <p2>Sri Chaiatanya Junior College (2017-2019), CGPA: 9.94/10</p2>
+              <p1>Board Of Intermediate Education Andhra Pradesh </p1> <br />
+              <p1>Sri Chaiatanya Junior College (2017-2019), CGPA: 9.94/10</p1>
             </li>
             <br />
             <li>
               <p1>Class X </p1> <br />
-              <p2>Board Of Secondary Education Andhra Pradesh </p2> <br />
-              <p2>ST.Claret EM High School (2017), GPA: 10/10 </p2>{" "}
+              <p1>Board Of Secondary Education Andhra Pradesh </p1> <br />
+              <p1>ST.Claret EM High School (2017), GPA: 10/10 </p1>{" "}
             </li>
           </ul>
         </div>
         <div className="educat-extra">
           <h3>Internship Experience</h3>
           <div>- Osmosys Software Solutions</div>
+          <p2>(July 2023 - December 2023)</p2>
           <ul>
             <li>
-              Worked on C# .NET to build Web APIs and implemented business
-              logic.
+              Developed scalable Web APIs using C# .NET, incorporating business
+              logic to deliver efficient and reliable solutions for a complex
+              project.
             </li>
             <br />
-            <li>Worked on SQL database and Stored Procedures.</li>
+            <li>
+              {" "}
+              Optimized data retrieval and manipulation in SQL database using
+              Stored Procedures, resulting in improved system performance.
+            </li>
             <br />
             <li>
               Worked on Azure tasks to ETL data from the sFTP server to Azure
@@ -99,7 +105,10 @@ function Work() {
         </div>
         <div className="educat-extra">
           <h3>Notable Activities</h3>
-          <div>- President at Bennett Cloud Computing Club</div>
+          <div>
+            - President at Bennett Cloud Computing Club{" "}
+            <p2>(Jan 2022 - April 2023)</p2>
+          </div>
           <ul>
             <li>
               Organized various events on Cloud Computing like hackathons and
