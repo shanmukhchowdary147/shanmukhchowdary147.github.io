@@ -74,7 +74,7 @@ function Work() {
         <div className="educat-extra">
           <h3>Internship Experience</h3>
           <div>- Osmosys Software Solutions</div>
-          <p2>(July 2023 - December 2023)</p2>
+          <p2>(July 2022 - December 2022)</p2>
           <ul>
             <li>
               Developed scalable Web APIs using C# .NET, incorporating business
@@ -107,7 +107,7 @@ function Work() {
           <h3>Notable Activities</h3>
           <div>
             - President at Bennett Cloud Computing Club{" "}
-            <p2>(Jan 2022 - April 2023)</p2>
+            <p2>(Jan 2022 - April 2022)</p2>
           </div>
           <ul>
             <li>
