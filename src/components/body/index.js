@@ -5,6 +5,7 @@ import Projects1 from "./projects/project1";
 import Skills from "./skills/index";
 import Work from "./work/index";
 import Contact from "./contact/index";
+import Experience from "./experience/index";
 function Body() {
   return (
     <div className="body">

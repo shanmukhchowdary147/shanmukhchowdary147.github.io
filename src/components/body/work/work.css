@@ -1,7 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Domine:wght@700&family=Poppins&display=swap");
+
 .about {
   display: flex;
   justify-content: space-between;
 }
+
 .pic {
   width: 370px;
   height: 385px;
@@ -24,17 +27,21 @@
   flex-direction: column;
   width: 100%;
 }
-.educat {
+.intro-para {
   display: flex;
   flex-direction: column;
   width: 100%;
 }
-.educat p1 {
-  font-size: 19px;
-  color: #64ffda;
+.intro-para p {
+  font-size: 17px;
+  color: rgb(207, 207, 207);
+  font-family: "Poppins", sans-serif;
+  margin: 5px;
+  /* color: #64ffda;
+   */
 }
-.educat p2 {
-  color: white;
+.intro-para p1 {
+  color: #64ffda;
 }
 .work-list {
   display: flex;
@@ -43,9 +50,42 @@
   align-items: center;
   margin: 0px 0px;
 }
+.education-extracircular {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.educat-extra {
+  box-sizing: border-box;
+  padding: 20px;
+  box-shadow: 0 0 10px 1px black;
+  /* box-shadow: -5px -5px 10px rgba(0, 0, 0, 0.5), 5px 5px 5px rgba(0, 0, 0, 0.1); */
+  border-radius: 12px;
+  background-color: #01152b;
+  max-width: 400px;
+  margin: 12px;
+  flex-basis: 0;
+  flex-grow: 1;
+}
+
+.educat-extra ul {
+  list-style-type: none;
+}
+
+.educat-extra ul li::before {
+  content: "➤";
+  color: #64ffda; /* Replace with your desired color */
+  margin-right: 5px;
+}
 @media only screen and (max-width: 720px) {
   .about {
     flex-direction: column;
     justify-content: center;
+  }
+  .education-extracircular {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 }
