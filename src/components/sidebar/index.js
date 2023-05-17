@@ -1,18 +1,16 @@
 import React from "react";
-import "./style.css";
-import { SocialIcon } from 'react-social-icons';
-import { FaGithub, FaTwitter,FaFacebookF, FaLinkedin } from "react-icons/fa";
-import x from '.'
+import "./sidebar.css";
+import { SocialIcon } from "react-social-icons";
 
 export default function Socialicons() {
-  const emailClick=()=>{
-    window.location.assign('mailto:shanmukhchowdary147@gmail.com');
+  const emailClick = () => {
+    window.location.assign("mailto:shanmukhchowdary147@gmail.com");
   };
   return (
     <div>
       <div className="stick_follow_icon">
-        <ul >
-          <li >
+        <ul>
+          <li>
             <SocialIcon
               url="https://www.linkedin.com/in/shanmukhchowdary147/"
               bgColor="#01152b"
@@ -67,10 +65,14 @@ export default function Socialicons() {
             />
           </li>
         </ul>
-        <img src={require("../../assets/image/social-media-arrow.svg").default} alt="" className="imagelineL" />            
+        <img
+          src={require("../../assets/image/social-media-arrow.svg").default}
+          alt=""
+          className="imagelineL"
+        />
       </div>
-      <div className="emailright" onClick={emailClick} >
-        <p >shanmukhchowdary147@gmail.com</p>
+      <div className="emailright" onClick={emailClick}>
+        <p>shanmukhchowdary147@gmail.com</p>
         {/* <img src={require("../../assets/image/scroll-down-arrow.svg").default} alt="" className="imageLineR" />             */}
       </div>
     </div>

@@ -3,14 +3,14 @@
   justify-content: space-between;
   flex: 1;
   padding: 12px 12px;
-  position: relative;
+  /* position: sticky; */
   align-items: center;
 }
 .menu {
   display: flex;
   flex: 1;
   justify-content: flex-end;
-  color: white
+  color: white;
 }
 .menu-icon {
   font-size: 24px;
