@@ -3,7 +3,7 @@ export const ProjectData = [
     id: 1,
     title: "GatorHive",
     about:
-      "GatorHive is an online platform ddesigned for students of University of Florida to find and promote college events. It allows clubs to register and promote their events. The platform aims to enhance campus community connectivity. It has some cool features like Register As group option and subscribe to clubs to get notified about their future events.",
+      "GatorHive is a web application designed for students of University of Florida to find and promote college events. It allows clubs to register and promote their events. The platform aims to enhance campus community connectivity. It has some cool features like Register As group option and subscribe to clubs to get notified about their future events.",
     tags: ["React JS", "Node JS", "MySQL", "AWS S3"],
     github: "https://github.com/shanmukhchowdary147/GatorHive-26",
     image:
