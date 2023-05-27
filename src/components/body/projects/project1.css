@@ -6,7 +6,7 @@
 }
 .cardp {
   position: relative;
-  min-width: 350px;
+  min-width: 340px;
   flex-basis: 15%; /* Set each card to occupy 25% of the container's width */
   max-width: 15%; /* Set maximum width for each card */
   box-sizing: border-box;
