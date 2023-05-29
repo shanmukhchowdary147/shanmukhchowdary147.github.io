@@ -1,13 +1,23 @@
-import React from "react";
+import React, { useState } from "react";
 import { certificationsData } from "../../../data/certifications";
 import WorkCard from "./work-card";
 import "./work.css";
 import Separator from "../../common/separator/index";
+import EducationInfo from "./education";
+import NotableActivities from "./notable_activities";
+import Experience from "./experience";
 function Work() {
   const picClick = () => {
     window.open("https://www.linkedin.com/in/shanmukhchowdary147/", "_blank");
   };
   const data = certificationsData;
+
+  const [selectedMenu, setSelectedMenu] = useState("education");
+
+  const handleMenuClick = (menu) => {
+    setSelectedMenu(menu);
+  };
+
   return (
     <div className="work">
       <Separator />
@@ -49,78 +59,37 @@ function Work() {
           </div>
         </div>
       </div>
-      <div className="education-extracircular">
-        <div className="educat-extra">
-          <h3>Education </h3>
-          <ul>
-            <li>
-              <p1>Bachelor of Technology, Computer Science </p1> <br />
-              <p1>Bennett University (2019-2023), CGPA: 8.74/10 </p1>
-            </li>
-            <br />
-            <li>
-              <p1>Intermediate, MPC </p1> <br />
-              <p1>Board Of Intermediate Education Andhra Pradesh </p1> <br />
-              <p1>Sri Chaiatanya Junior College (2017-2019), CGPA: 9.94/10</p1>
-            </li>
-            <br />
-            <li>
-              <p1>Class X </p1> <br />
-              <p1>Board Of Secondary Education Andhra Pradesh </p1> <br />
-              <p1>ST.Claret EM High School (2017), GPA: 10/10 </p1>{" "}
-            </li>
-          </ul>
-        </div>
-        <div className="educat-extra">
-          <h3>Internship Experience</h3>
-          <div>- Osmosys Software Solutions</div>
-          <p2>(July 2022 - December 2022)</p2>
-          <ul>
-            <li>
-              Developed scalable Web APIs using C# .NET, incorporating business
-              logic to deliver efficient and reliable solutions for a complex
-              project.
-            </li>
-            <br />
-            <li>
-              {" "}
-              Optimized data retrieval and manipulation in SQL database using
-              Stored Procedures, resulting in improved system performance.
-            </li>
-            <br />
-            <li>
-              Worked on Azure tasks to ETL data from the sFTP server to Azure
-              SQL database using Azure Data Factory.
-            </li>
-            <br />
-            <li>
-              Written Azure functions in c# language to decrypt the PGP
-              encrypted files in Azure Blob storage.
-            </li>
-            <br />
-            <li>
-              Completed the assigned tasks on time and as per the requirement.{" "}
-            </li>
-          </ul>
-        </div>
-        <div className="educat-extra">
-          <h3>Notable Activities</h3>
-          <div>
-            - President at Bennett Cloud Computing Club{" "}
-            <p2>(Jan 2022 - April 2022)</p2>
+      <div className="container-menu">
+        <div className="info-menu">
+          <div
+            className={`menu-item ${selectedMenu === "education" && "active"}`}
+            onClick={() => handleMenuClick("education")}
+          >
+            Education
           </div>
-          <ul>
-            <li>
-              Organized various events on Cloud Computing like hackathons and
-              workshops to enhance students' knowledge on cloud computing and to
-              create awareness on Cloud courses in university.
-            </li>
+          <div
+            className={`menu-item ${selectedMenu === "internship" && "active"}`}
+            onClick={() => handleMenuClick("internship")}
+          >
+            Internship
             <br />
-            <li>
-              Lead all the club members in an organized manner by assigning
-              tasks to each individual and verifying their performance.
-            </li>
-          </ul>
+            Experience
+          </div>
+          <div
+            className={`menu-item ${
+              selectedMenu === "notable-activities" && "active"
+            }`}
+            onClick={() => handleMenuClick("notable-activities")}
+          >
+            Notable
+            <br />
+            Activities
+          </div>
+        </div>
+        <div className="content">
+          {selectedMenu === "education" && <EducationInfo />}
+          {selectedMenu === "internship" && <Experience />}
+          {selectedMenu === "notable-activities" && <NotableActivities />}
         </div>
       </div>
       <div>
