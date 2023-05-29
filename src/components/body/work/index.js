@@ -33,9 +33,10 @@ function Work() {
           <p>
             My love for full stack development has led me to gain proficiency in
             fields such as <p1>React JS, Node JS, MySQL,</p1> as well as DevOps
-            tools like <p1>Docker, Kubernetes, and AWS cloud</p1>. This broad
-            skill set has allowed me to develop projects across diverse domains,
-            showcasing my adaptability and versatility.{" "}
+            tools like <p1>Docker, Kubernetes,</p1> along with cloud platforms
+            like <p1>AWS </p1>. This broad skill set has allowed me to develop
+            projects across diverse domains, showcasing my adaptability and
+            versatility.{" "}
           </p>
           <p>
             One of my projects was recognized as one of the best projects at
