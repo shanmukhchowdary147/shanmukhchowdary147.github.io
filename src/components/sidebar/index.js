@@ -37,6 +37,15 @@ export default function Socialicons() {
               style={{ height: 50, width: 50 }}
             />
           </li>
+          <li>
+            <SocialIcon
+              url="https://shanmukhchowdary147.medium.com/"
+              bgColor="#01152b"
+              fgColor="#64ffda"
+              target="_blank"
+              style={{ height: 50, width: 50 }}
+            />
+          </li>
           {/* <li>
             <SocialIcon
               url="mailto:shanmukhchowdary147@gmail.com"
@@ -48,14 +57,14 @@ export default function Socialicons() {
           </li> */}
           <li>
             <SocialIcon
-              url="https://www.instagram.com/___shannu.___/"
+              url="https://www.instagram.com/shann_uuu_/"
               bgColor="#01152b"
               fgColor="#64ffda"
               target="_blank"
               style={{ height: 50, width: 50 }}
             />
           </li>
-          <li>
+          {/* <li>
             <SocialIcon
               url="https://twitter.com/Shanmukhc147"
               bgColor="#01152b"
@@ -63,7 +72,7 @@ export default function Socialicons() {
               target="_blank"
               style={{ height: 50, width: 50 }}
             />
-          </li>
+          </li> */}
         </ul>
         <img
           src={require("../../assets/image/social-media-arrow.svg").default}
@@ -72,7 +81,7 @@ export default function Socialicons() {
         />
       </div>
       <div className="emailright" onClick={emailClick}>
-        <p>shanmukhchowdary147@gmail.com</p>
+        <p>shanmukhchowdary.m@gmail.com</p>
         {/* <img src={require("../../assets/image/scroll-down-arrow.svg").default} alt="" className="imageLineR" />             */}
       </div>
     </div>

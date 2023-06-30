@@ -12,11 +12,11 @@ export const SocialData = [
   {
     platform: "Mail",
     icon: require("../assets/icons/mail.png"),
-    link: "mailto:shanmukhchowdary147@gmail.com",
+    link: "mailto:shanmukhchowdary.m@gmail.com",
   },
   {
     platform: "Instagram",
     icon: require("../assets/icons/instagram.png"),
-    link: "https://www.instagram.com/___shannu.___/",
+    link: "https://www.instagram.com/shann_uuu_/",
   },
 ];
