@@ -13,7 +13,7 @@ function Projects1() {
         {data.map((project, index) => (
           <div className="cardp" key={index}>
             <h3>{project.title}</h3>
-            <a className="project-link" href={project.github}>
+            <a className="project-link" href={project.github} target="_blank">
               <div className="link-button">
                 <i class="devicon-github-original colored"></i> GitHub
               </div>
