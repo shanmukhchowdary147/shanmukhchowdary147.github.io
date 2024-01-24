@@ -81,7 +81,7 @@ export default function Socialicons() {
         />
       </div>
       <div className="emailright" onClick={emailClick}>
-        <p>shanmukhchowdary.m@gmail.com</p>
+        <p>shanmukhchowdary.mo@gmail.com</p>
         {/* <img src={require("../../assets/image/scroll-down-arrow.svg").default} alt="" className="imageLineR" />             */}
       </div>
     </div>
