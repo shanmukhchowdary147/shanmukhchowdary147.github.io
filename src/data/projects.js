@@ -71,16 +71,6 @@ export const ProjectData = [
   },
   {
     id: 1,
-    title: "WildFire Prediction",
-    about:
-      "Wildfire prediction is a machine learning project to predict wildfires in the near future.",
-    tags: ["Python", "ML"],
-    github: "https://github.com/shanmukhchowdary147/Wildfire-Prediction",
-    image:
-      "https://cdn.dribbble.com/users/2657627/screenshots/13959270/media/b1a8b2b53760dc5c10e6cddc1409a3a1.png?compress=1&resize=400x300",
-  },
-  {
-    id: 1,
     title: "Covi-19 Tracker App",
     about:
       "Covi-19 Tracker is an android app to track the status of Covid-19 cases globally and nationally. It shows some major aspects like total cases, active cases, today's cases, total deaths, today's deaths, number of people recovered, and affected countries.",
