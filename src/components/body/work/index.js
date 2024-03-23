@@ -12,7 +12,7 @@ function Work() {
   };
   const data = certificationsData;
 
-  const [selectedMenu, setSelectedMenu] = useState("education");
+  const [selectedMenu, setSelectedMenu] = useState("internship");
 
   const handleMenuClick = (menu) => {
     setSelectedMenu(menu);
@@ -63,12 +63,6 @@ function Work() {
       <div className="container-menu">
         <div className="info-menu">
           <div
-            className={`menu-item ${selectedMenu === "education" && "active"}`}
-            onClick={() => handleMenuClick("education")}
-          >
-            Education
-          </div>
-          <div
             className={`menu-item ${selectedMenu === "internship" && "active"}`}
             onClick={() => handleMenuClick("internship")}
           >
@@ -76,6 +70,13 @@ function Work() {
             <br />
             Experience
           </div>
+          <div
+            className={`menu-item ${selectedMenu === "education" && "active"}`}
+            onClick={() => handleMenuClick("education")}
+          >
+            Education
+          </div>
+
           <div
             className={`menu-item ${
               selectedMenu === "notable-activities" && "active"
