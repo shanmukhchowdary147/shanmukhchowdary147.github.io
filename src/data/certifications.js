@@ -21,15 +21,15 @@ export const certificationsData = [
     // work: "Worken on Unit testing and creating the largest database efficiently. With over 100 people under me, made it work really well.",
   },
   {
-    company: "Microsoft Azure Fundamentals(AZ-900)",
+    company: "Microsoft Azure Fundamentals (AZ-900)",
     dateJoining: "02-04-2021",
   },
   {
-    company: "Microsoft Azure AI fundamentals(AI 900)",
+    company: "Microsoft Azure AI fundamentals (AI 900)",
     dateJoining: "12-04-2021",
   },
   {
-    company: "Microsoft Azure Data Fundamentals(DP-900)",
+    company: "Microsoft Azure Data Fundamentals (DP-900)",
     dateJoining: "23-04-2021",
   },
   {
@@ -37,7 +37,7 @@ export const certificationsData = [
     dateJoining: "18-06-2021",
   },
   {
-    company: "HackerRank Problem Solving(Intermediate & Basic)",
+    company: "HackerRank Problem Solving (Intermediate & Basic)",
     dateJoining: "25-03-2021",
   },
   {
