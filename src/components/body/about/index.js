@@ -17,6 +17,7 @@ function About() {
       backSpeed: 60,
       strings: [
         "Web developer",
+        "Full Stack Developer",
         "AWS DevOps Engineer",
         "AWS Solutions Architect",
         "Azure Administrator",
