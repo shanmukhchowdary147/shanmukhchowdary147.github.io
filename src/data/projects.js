@@ -3,9 +3,19 @@ export const ProjectData = [
     id: 1,
     title: "GatorHive",
     about:
-      "GatorHive is a web application designed for students of University of Florida to find and promote college events. It allows clubs to register and promote their events. The platform aims to enhance campus community connectivity. It has some cool features like Register As group option and subscribe to clubs to get notified about their future events.",
-    tags: ["React JS", "Node JS", "MySQL", "AWS S3"],
+      "Led a team of four to develop a University of Florida event discovery web app, streamlining student access. Crafted interactive front-end with React JS and CSS. Engineered secure Node JS back-end APIs and maintained MySQL databases, optimizing test efficiency. Utilized AWS S3 for robust image hosting, enhancing functionality. Achieved 99.9% uptime with strategic deployment on Azure VMs, minimizing downtime and elevating user experience",
+    tags: ["React JS", "Node JS", "CSS", "MySQL", "AWS S3"],
     github: "https://github.com/shanmukhchowdary147/GatorHive-26",
+    image:
+      "https://cdn.dribbble.com/users/2657627/screenshots/13959270/media/b1a8b2b53760dc5c10e6cddc1409a3a1.png?compress=1&resize=400x300",
+  },
+  {
+    id: 1,
+    title: "Recipe Management",
+    about:
+      "Containerized the React JS frontend and Node JS backend with Docker, orchestrated via AWS EKS with Helm charts for efficient deployment and EKS load balancing for resilience. Developed a microservices architecture, facilitated by Docker Compose for consistent dev-prod transitions. Implemented AWS CloudWatch for robust monitoring and real-time health tracking, enhancing issue resolution.",
+    tags: ["Docker", "Kubernetes", "AWS EKS", "AWS CloudWatch"],
+    // github: "https://github.com/shanmukhchowdary147/GatorHive-26",
     image:
       "https://cdn.dribbble.com/users/2657627/screenshots/13959270/media/b1a8b2b53760dc5c10e6cddc1409a3a1.png?compress=1&resize=400x300",
   },
@@ -25,6 +35,16 @@ export const ProjectData = [
     about:
       "Created a complete CI-CD pipeline using Jenkins server to continuously deploy application version changes from GitHub to the production environment. Integrated AWS CodeBuild plugin and CodeDeploy plugin to Jenkins. Used the cloud formation to deploy all the necessary resources like EC2 instance running with Jenkins, AWS CodeBuild, CodeDeploy, S3 to store artifacts, etc.",
     tags: ["AWS", "Jenkins"],
+    image:
+      "https://cdn.dribbble.com/users/2657627/screenshots/13959270/media/b1a8b2b53760dc5c10e6cddc1409a3a1.png?compress=1&resize=400x300",
+  },
+  {
+    id: 1,
+    title: "WildFire Prediction",
+    about:
+      "Streamlined data preprocessing for model training by imputing missing values with means, securing data quality. Developed predictive wildfire models with advanced regression, enhancing accuracy. Employed machine learning to forecast wildfires, demonstrating a commitment to mitigating their impact through technology.",
+    tags: ["Python", "ML"],
+    github: "https://github.com/shanmukhchowdary147/Wildfire-Prediction",
     image:
       "https://cdn.dribbble.com/users/2657627/screenshots/13959270/media/b1a8b2b53760dc5c10e6cddc1409a3a1.png?compress=1&resize=400x300",
   },

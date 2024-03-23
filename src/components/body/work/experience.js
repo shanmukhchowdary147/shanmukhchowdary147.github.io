@@ -8,29 +8,32 @@ function Experience() {
       <p2>(July 2022 - December 2022)</p2>
       <ul>
         <li>
-          Developed scalable Web APIs using C# .NET, incorporating business
-          logic to deliver efficient and reliable solutions for a complex
-          project.
+          Developed scalable APIs using C# .NET, incorporating business logic to
+          deliver efficient solutions for a complex project.
         </li>
         <br />
         <li>
-          {" "}
-          Optimized data retrieval and manipulation in SQL database using Stored
-          Procedures, resulting in improved system performance.
+          Designed and implemented responsive web applications using HTML, CSS,
+          and JavaScript, ensuring seamless cross-platform functionality, and
+          improved responsiveness by 20% by implementing lazy loading.
         </li>
         <br />
         <li>
-          Worked on Azure tasks to ETL data from the sFTP server to Azure SQL
-          database using Azure Data Factory.
+          Enhanced system performance by 40% through optimizing MSSQL data
+          retrieval and manipulation using Stored Procedures.
         </li>
         <br />
         <li>
-          Written Azure functions in c# language to decrypt the PGP encrypted
-          files in Azure Blob storage.
+          Automated an ETL process in Azure Data Factory, efficiently
+          transferring PGP-encrypted files from an SFTP to Azure Blob Storage
+          and reducing processing time by 40% through seamless ingestion and
+          decryption pipeline orchestration.
         </li>
         <br />
         <li>
-          Completed the assigned tasks on time and as per the requirement.{" "}
+          Enhanced data transfer and decryption efficiency by integrating Azure
+          Functions with Azure Data Factory, accelerating CSV data loading into
+          SQL by 30% and boosting analytical data accessibility.
         </li>
       </ul>
     </div>

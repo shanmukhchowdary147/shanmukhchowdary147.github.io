@@ -10,19 +10,21 @@ function EducationInfo() {
       <ul className="education">
         <li>
           <div className="education-item">
-            <p1>Bachelor of Technology, Computer Science </p1> <br />
-            <p1>Bennett University (2019-2023) </p1>
-            <br /> <p1>CGPA: 8.74/10 </p1>
+            <p1>Master’s in Computer Science </p1> <br />
+            <p1>
+              University of Florida (August 2023-December 2024){" "}
+            </p1> <br /> <p1> - CGPA: 3.65/4</p1>
           </div>
         </li>
         <br />
         <li>
           <div className="education-item">
-            <p1>Intermediate, MPC </p1> <br />
-            <p1>Sri Chaiatanya Junior College (2017-2019) </p1> <br />{" "}
-            <p1> CGPA: 9.94/10</p1>
+            <p1>Bachelor of Technology, Computer Science </p1> <br />
+            <p1>Bennett University (2019-2023) </p1>
+            <br /> <p1> - CGPA: 8.74/10 </p1>
           </div>
         </li>
+
         {/* <br />
         <li>
           <p1>Class X </p1> <br />
