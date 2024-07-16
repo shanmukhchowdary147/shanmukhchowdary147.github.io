@@ -3,7 +3,7 @@ export const ProjectData = [
     id: 1,
     title: "GatorHive",
     about:
-      "Led a team of four to develop a University of Florida event discovery web app, streamlining student access. Crafted interactive front-end with React JS and CSS. Engineered secure Node JS back-end APIs and maintained MySQL databases, optimizing test efficiency. Utilized AWS S3 for robust image hosting, enhancing functionality. Achieved 99.9% uptime with strategic deployment on Azure VMs, minimizing downtime and elevating user experience",
+      "Led the team of 4 for the creation of a web application that streamlines events discovery for University of Florida students. Created engaging web pages using React.js and CSS, delivering a seamless user experience. Collaborated on backend development using TypeScript and Node.js for data communication, and managed MySQL database to ensure efficient testing. Also Integrated AWS S3 for efficient image hosting, enhancing platform functionality. Orchestrated successful deployment of the software on AWS EC2 infrastructure using PM2, optimizing uptime and availability. ",
     tags: [
       "React.js",
       "CSS",
