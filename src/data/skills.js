@@ -16,8 +16,25 @@ export const SkillsData = [
       },
 
       {
+        name: "Node JS",
+        icon: <i class="devicon-nodejs-plain colored"></i>,
+      },
+      {
+        name: "DOT-NET",
+        icon: <i class="devicon-dot-net-plain colored"></i>,
+      },
+      {
         name: "AWS",
         icon: <i class="devicon-amazonwebservices-original colored"></i>,
+      },
+      {
+        name: "Azure",
+        icon: (
+          <img
+            height="70"
+            src="https://www.vectorlogo.zone/logos/microsoft_azure/microsoft_azure-icon.svg"
+          ></img>
+        ),
       },
       {
         name: "Docker",
@@ -32,27 +49,18 @@ export const SkillsData = [
         icon: <i class="devicon-jenkins-plain colored"></i>,
       },
 
-      {
-        name: "Azure",
-        icon: (
-          <img
-            height="70"
-            src="https://www.vectorlogo.zone/logos/microsoft_azure/microsoft_azure-icon.svg"
-          ></img>
-        ),
-      },
-
       // {
       //   name: "Android Studio",
       //   icon: <i class="devicon-android-plain colored"></i>,
       // },
+
       {
-        name: "DOT-NET",
-        icon: <i class="devicon-dot-net-plain colored"></i>,
+        name: "JavaScript",
+        icon: <i class="devicon-javascript-plain colored"></i>,
       },
       {
-        name: "Node JS",
-        icon: <i class="devicon-nodejs-plain colored"></i>,
+        name: "C++",
+        icon: <i class="devicon-cplusplus-plain colored"></i>,
       },
       {
         name: "Python",
@@ -62,10 +70,6 @@ export const SkillsData = [
       //   name: "Java",
       //   icon: <i class="devicon-java-plain"></i>,
       // },
-      {
-        name: "C++",
-        icon: <i class="devicon-cplusplus-plain colored"></i>,
-      },
 
       {
         name: "MySQL",

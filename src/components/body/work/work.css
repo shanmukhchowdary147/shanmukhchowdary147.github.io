@@ -77,7 +77,14 @@
   flex-basis: 0;
   flex-grow: 1; */
 }
-
+.activities-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.activities-description {
+  color: rgb(207, 207, 207);
+}
 .notable-extracir-card {
   padding: 0 40px;
 }
@@ -96,6 +103,9 @@
   content: "➤";
   color: #64ffda; /* Replace with your desired color */
   margin-right: 5px;
+}
+.activities-description ul li::before {
+  content: "-";
 }
 
 .notable-extracir-card p2 {

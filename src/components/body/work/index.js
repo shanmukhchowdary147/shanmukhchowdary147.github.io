@@ -83,9 +83,7 @@ function Work() {
             }`}
             onClick={() => handleMenuClick("notable-activities")}
           >
-            Notable
-            <br />
-            Activities
+            Achievements
           </div>
         </div>
         <div className="content">

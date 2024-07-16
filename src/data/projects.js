@@ -4,17 +4,37 @@ export const ProjectData = [
     title: "GatorHive",
     about:
       "Led a team of four to develop a University of Florida event discovery web app, streamlining student access. Crafted interactive front-end with React JS and CSS. Engineered secure Node JS back-end APIs and maintained MySQL databases, optimizing test efficiency. Utilized AWS S3 for robust image hosting, enhancing functionality. Achieved 99.9% uptime with strategic deployment on Azure VMs, minimizing downtime and elevating user experience",
-    tags: ["React JS", "Node JS", "CSS", "MySQL", "AWS S3"],
+    tags: [
+      "React.js",
+      "CSS",
+      "TypeScript",
+      "Node.js",
+      "MySQL",
+      "AWS RDS",
+      "AWS S3",
+      "Azure VM",
+      "Git",
+    ],
     github: "https://github.com/shanmukhchowdary147/GatorHive-26",
     image:
       "https://cdn.dribbble.com/users/2657627/screenshots/13959270/media/b1a8b2b53760dc5c10e6cddc1409a3a1.png?compress=1&resize=400x300",
   },
   {
     id: 1,
-    title: "Recipe Management",
+    title: "Travel Chronicles",
     about:
-      "Containerized the React JS frontend and Node JS backend with Docker, orchestrated via AWS EKS with Helm charts for efficient deployment and EKS load balancing for resilience. Developed a microservices architecture, facilitated by Docker Compose for consistent dev-prod transitions. Implemented AWS CloudWatch for robust monitoring and real-time health tracking, enhancing issue resolution.",
-    tags: ["Docker", "Kubernetes", "AWS EKS", "AWS CloudWatch"],
+      "Built a travel journal app with the MERN stack, featuring an intuitive and responsive user interface using React.js and CSS. Designed and integrated RESTful APIs using Express.js and MongoDB to facilitate seamless data exchange between the frontend and backend, ensuring efficient data management and retrieval. Implemented JWT-based authorization stored in HTTP-only cookies, effectively mitigating XSS and CSRF attacks.",
+    tags: ["React.js", "CSS", "Express.js", "Node.js", "MongoDB"],
+    github: "https://github.com/shanmukhchowdary147/GatorHive-26",
+    image:
+      "https://cdn.dribbble.com/users/2657627/screenshots/13959270/media/b1a8b2b53760dc5c10e6cddc1409a3a1.png?compress=1&resize=400x300",
+  },
+  {
+    id: 1,
+    title: "KubeDeploy",
+    about:
+      "Utilized Amazon EKS and Kubernetes to deploy a scalable three-tier application architecture, managing deployments with Helm. Employed Docker to containerize frontend and backend microservices and Amazon ECR for image management. Implemented AWS Application Load Balancer and Kubernetes Ingress Controller for efficient traffic routing. ",
+    tags: ["AWS EKS", "Docker", "Ingress", "Load Balancer", "Helm"],
     // github: "https://github.com/shanmukhchowdary147/GatorHive-26",
     image:
       "https://cdn.dribbble.com/users/2657627/screenshots/13959270/media/b1a8b2b53760dc5c10e6cddc1409a3a1.png?compress=1&resize=400x300",
@@ -71,9 +91,9 @@ export const ProjectData = [
   },
   {
     id: 1,
-    title: "Covi-19 Tracker App",
+    title: "Covid-19 Tracker App",
     about:
-      "Covi-19 Tracker is an android app to track the status of Covid-19 cases globally and nationally. It shows some major aspects like total cases, active cases, today's cases, total deaths, today's deaths, number of people recovered, and affected countries.",
+      "Covid-19 Tracker is an android app to track the status of Covid-19 cases globally and nationally. It shows some major aspects like total cases, active cases, today's cases, total deaths, today's deaths, number of people recovered, and affected countries.",
     tags: ["Android Studio", "Java", "Retrofit"],
     github: "https://github.com/shanmukhchowdary147/Covid19Tracker",
     image:
