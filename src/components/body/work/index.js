@@ -53,7 +53,7 @@ function Work() {
           <div className="about-pic">
             {/* <br /> <br /> <br /> */}
             <img
-              src={require("../../../assets/image/shannu.jpg")}
+              src={require("../../../assets/image/profile.jpg")}
               className="pic"
               onClick={picClick}
             />
