@@ -25,7 +25,7 @@ export const ProjectData = [
     about:
       "Built a travel journal app with the MERN stack, featuring an intuitive and responsive user interface using React.js and CSS. Designed and integrated RESTful APIs using Express.js and MongoDB to facilitate seamless data exchange between the frontend and backend, ensuring efficient data management and retrieval. Implemented JWT-based authorization stored in HTTP-only cookies, effectively mitigating XSS and CSRF attacks.",
     tags: ["React.js", "CSS", "Express.js", "Node.js", "MongoDB"],
-    github: "https://github.com/shanmukhchowdary147/GatorHive-26",
+    github: "https://github.com/shanmukhchowdary147/Travel-Chronicles",
     image:
       "https://cdn.dribbble.com/users/2657627/screenshots/13959270/media/b1a8b2b53760dc5c10e6cddc1409a3a1.png?compress=1&resize=400x300",
   },
