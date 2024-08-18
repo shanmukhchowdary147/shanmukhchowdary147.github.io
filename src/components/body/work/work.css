@@ -13,6 +13,7 @@
   border-style: solid;
   align-items: center;
   cursor: pointer;
+  object-fit: cover;
 }
 
 .tempclass {
