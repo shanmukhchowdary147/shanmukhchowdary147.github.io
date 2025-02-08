@@ -3,6 +3,10 @@ export const SkillsData = [
     type: "Frontend",
     list: [
       {
+        name: "Angular",
+        icon: <i class="devicon-angular-plain colored"></i>,
+      },
+      {
         name: "React JS",
         icon: <i class="devicon-react-original colored"></i>,
       },

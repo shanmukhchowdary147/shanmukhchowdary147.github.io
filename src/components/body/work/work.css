@@ -89,6 +89,9 @@
 .notable-extracir-card {
   padding: 0 40px;
 }
+.experience-title {
+  font-weight: 700;
+}
 .notable-extracir-card h3,
 .education-box h3 {
   margin-top: 0px;
@@ -163,6 +166,10 @@
 .content {
   flex: 1;
   padding: 20px;
+}
+.content {
+  overflow: hidden; /* Required for height transitions */
+  transition: height 0.3s ease; /* Smooth height change */
 }
 
 .education-item {
