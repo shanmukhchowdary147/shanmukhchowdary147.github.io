@@ -5,6 +5,16 @@ function Experience() {
     <div className="notable-extracir-card">
       <h3>Internship Experience</h3>
       <div></div>
+      <div className="experience-title">- Software Development Engineer</div>
+      <p2>Greenstand (Jan 2025 - Apr 2025)</p2>
+      <ul>
+        <li>
+          Implemented secure authentication system using Node.js and Keycloak,
+          deploying the containerized microservice on Kubernetes in Digital
+          Ocean with Ambassador API Gateway for optimized routing and
+          scalability.
+        </li>
+      </ul>
 
       <div className="experience-title">- Software Developer Intern</div>
       <p2>Superstars, Inc. (August 2024 - December 2024)</p2>
@@ -32,16 +42,19 @@ function Experience() {
       <br />
 
       <div>- Full-stack Developer Intern</div>
-      <p2>Indpower (Electrical Services Company) (May 2023 - July 2023)</p2>
+      <p2>Indpower (Electrical Services Company) (Jan 2023 - July 2023)</p2>
       <ul>
         <li>
-          Engineered a portfolio website using React.js and CSS, boosting client
-          inquiries for an electrical company.
+          Developed a company website using React.js, implementing optimization
+          techniques that improved performance by 45%, achieving perfect
+          Lighthouse performance scores across all categories.
         </li>
         <br />
         <li>
-          Implemented a serverless contact system using EmailJS and IP rate
-          limiting for secure form submissions with zero backend costs.
+          Architected a modular SEO architecture with React Helmet and
+          TypeScript that dynamically constructs structured JSON-LD data across
+          pages, significantly improving search rankings and increasing client
+          inquiries for the company.
         </li>
       </ul>
 
@@ -57,12 +70,12 @@ function Experience() {
         <br />
         <li>
           Strengthened MSSQL database security by implementing parameterized
-          queries and input sanitization with RBAC across 50+ critical
+          queries and input sanitization with RBAC across 30+ critical
           operations, ensuring secure handling of sensitive policyholder data.
         </li>
         <br />
         <li>
-          Developed 15+ stored procedures for complex database operations,
+          Developed stored procedures for complex database operations,
           optimizing data aggregation for insurance claims processing and
           temporary accommodation matching.
         </li>
@@ -76,7 +89,7 @@ function Experience() {
         <li>
           Architected an automated ETL process using Azure Data Factory and
           Azure Functions, orchestrating seamless ingestion and decryption of
-          PGP-encrypted files from SFTP to Azure Blob Storage, resulting in 30%
+          PGP-encrypted files from SFTP to Azure Blob Storage, resulting in 70%
           faster CSV data loading into SQL.
         </li>
       </ul>
